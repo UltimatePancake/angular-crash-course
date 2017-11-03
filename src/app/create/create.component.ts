@@ -20,7 +20,8 @@ export class CreateComponent implements OnInit {
   }
 
     newPost(post) {
-        console.log(post);
-        this.restApiService.create(post);
+        this.restApiService.create(post).subscribe((res) => {
+            console.log('O SHIT BOI');
+        });
     }
 }

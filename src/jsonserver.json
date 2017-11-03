@@ -1,44 +1,24 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Worth",
-      "description": "WUBBALUBBADUBDUUUUUUB"
+      "title": "wat",
+      "description": "casdcdas",
+      "id": 15
     },
     {
-      "title": "other post",
-      "description": "o snap",
-      "id": 2
+      "title": "wat",
+      "description": "casdcdas",
+      "id": 16
     },
     {
-      "title": "gaaaaaaaaaaaah",
-      "description": "MOOOOORE",
-      "id": 3
+      "title": "wat",
+      "description": "casdcdas",
+      "id": 17
     },
     {
-      "title": "LOREMIMAPDSIUFASICDAPSDUCIDSA",
-      "description": "FJLAJDFLAISLJC",
-      "id": 4
-    },
-    {
-      "title": "one of those days",
-      "description": "NOT TODAY",
-      "id": 5
-    },
-    {
-      "title": "one of those days",
-      "description": "NOT TODAY",
-      "id": 6
-    },
-    {
-      "title": "one of those days",
-      "description": "NOT TODAY",
-      "id": 7
-    },
-    {
-      "title": "one of those days",
-      "description": "NOT TODAY",
-      "id": 8
+      "title": "wat",
+      "description": "casdcdas",
+      "id": 18
     }
   ]
 }

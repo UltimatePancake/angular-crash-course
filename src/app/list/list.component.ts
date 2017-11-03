@@ -14,9 +14,19 @@ export class ListComponent implements OnInit {
     ) { }
 
   ngOnInit() {
+      this.getList();
+  }
+
+    getList() {
       this.restApiService.getList().subscribe((res) => {
           this.list = res.json();
       });
-  }
+    }
 
+    remove(post) {
+        this.restApiService.deletePost(post.id).subscribe((res) => {
+            console.log('Y THO');
+            this.getList();
+        });
+    }
 }

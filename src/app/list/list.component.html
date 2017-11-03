@@ -1,6 +1,6 @@
 <ul>
     <li *ngFor="let item of list">
-        <strong>{{ item.title }}</strong>
+        <strong><button (click)="remove(item)">HERPDERP</button> {{ item.title }}</strong>
         <p>{{ item.description }}</p>
     </li>
 </ul>

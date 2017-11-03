@@ -16,4 +16,8 @@ export class RestApiService {
     create(newPost) {
         return this.http.post(this.URL, newPost);
     }
+
+    deletePost(post) {
+        return this.http.delete(this.URL + '/' + post);
+    }
 }
