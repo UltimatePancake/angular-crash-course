@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { DetailComponent } from './detail/detail.component';
@@ -12,6 +13,7 @@ import { CreateComponent } from './create/create.component';
 const appRoutes: Routes = [
     { path: 'home', component: ListComponent },
     { path: 'detail/:id', component: DetailComponent },
+    { path: 'create', component: CreateComponent },
 ];
 
 @NgModule({
@@ -24,6 +26,7 @@ const appRoutes: Routes = [
   imports: [
     HttpModule,
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(
       appRoutes
     )

@@ -1,3 +1,4 @@
-<p>
-  create works!
-</p>
+<input name="title" [(ngModel)]="post.title" type="text">
+<input name="description" [(ngModel)]="post.description">
+<button (click)="newPost(post)" class="btn btn-primary">DO IT</button>
+

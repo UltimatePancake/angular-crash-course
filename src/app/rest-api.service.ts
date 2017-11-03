@@ -13,4 +13,7 @@ export class RestApiService {
         return this.http.get(this.URL);
     }
 
+    create(newPost) {
+        return this.http.post(this.URL, newPost);
+    }
 }
