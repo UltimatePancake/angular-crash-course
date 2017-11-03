@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Worth",
+      "description": "WUBBALUBBADUBDUUUUUUB"
+    },
+    {
+      "title": "other post",
+      "description": "o snap",
+      "id": 2
+    }
+  ]
+}
