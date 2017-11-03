@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http, RequestOptions } from '@angular/http';
 
 @Injectable()
 export class RestApiService {
     URL = 'http://localhost:3000/posts';
 
     constructor(
-        private http: Http
+        private http: Http,
+        public requestOptions: RequestOptions
     ) { }
 
     getList() {

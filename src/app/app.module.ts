@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { DetailComponent } from './detail/detail.component';
 import { ListComponent } from './list/list.component';
 import { CreateComponent } from './create/create.component';
+import { HeaderComponent } from './header/header.component';
 
 const appRoutes: Routes = [
     { path: 'home', component: ListComponent },
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
     DetailComponent,
     ListComponent,
     CreateComponent,
+    HeaderComponent,
   ],
   imports: [
     HttpModule,
